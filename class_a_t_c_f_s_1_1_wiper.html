@@ -1,0 +1,947 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>ATCFS For OpenBVE: ATCFS.Wiper クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">ATCFS For OpenBVE
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="pages.html"><span>諸情報</span></a></li>
+      <li><a href="namespaces.html"><span>パッケージ</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="inherits.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全て</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>クラス</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>名前空間</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>ファイル</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>関数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>変数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>プロパティ</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>ページ</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_a_t_c_f_s.html">ATCFS</a></li><li class="navelem"><a class="el" href="class_a_t_c_f_s_1_1_wiper.html">Wiper</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pac-methods">関数</a> &#124;
+<a href="#pri-methods">非公開メンバ関数</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="class_a_t_c_f_s_1_1_wiper-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">ATCFS.Wiper クラス</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+ATCFS.Wiper の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><img src="class_a_t_c_f_s_1_1_wiper__inherit__graph.png" border="0" usemap="#_a_t_c_f_s_8_wiper_inherit__map" alt="Inheritance graph"/></div>
+<map name="_a_t_c_f_s_8_wiper_inherit__map" id="_a_t_c_f_s_8_wiper_inherit__map">
+<area shape="rect" id="node2" href="class_a_t_c_f_s_1_1_device.html" title="抽象的な保安装置を表すクラス " alt="" coords="26,5,88,32"/></map>
+<center><span class="legend">[<a href="graph_legend.html">凡例</a>]</span></center></div>
+<div class="dynheader">
+ATCFS.Wiper 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="class_a_t_c_f_s_1_1_wiper__coll__graph.png" border="0" usemap="#_a_t_c_f_s_8_wiper_coll__map" alt="Collaboration graph"/></div>
+<map name="_a_t_c_f_s_8_wiper_coll__map" id="_a_t_c_f_s_8_wiper_coll__map">
+<area shape="rect" id="node3" href="class_a_t_c_f_s_1_1_train.html" title="このプラグインによってシミュレートされる列車を表すクラス" alt="" coords="645,356,744,383"/><area shape="rect" id="node2" href="class_a_t_c_f_s_1_1_device.html" title="抽象的な保安装置を表すクラス " alt="" coords="51,93,114,120"/><area shape="rect" id="node5" href="class_a_t_c_f_s_1_1_accel.html" title="列車の加速度を算出するクラス " alt="" coords="387,239,490,265"/><area shape="rect" id="node9" href="class_a_t_c_f_s_1_1_atc.html" title="ATC&#45;1, ATC&#45;2, ATC&#45;NS, KS&#45;ATC, DS&#45;ATCを再現するクラス " alt="" coords="1411,613,1501,640"/><area shape="rect" id="node16" href="class_a_t_c_f_s_1_1_sub.html" title="その他機能を再現するクラス " alt="" coords="875,159,968,185"/><area shape="rect" id="node17" href="class_a_t_c_f_s_1_1_ats_p.html" title="ATS&#45;Pを再現するクラス " alt="" coords="1205,209,1304,236"/><area shape="rect" id="node10" href="class_a_t_c_f_s_1_1_atc_1_1_fuzzy.html" title="予見Fuzzy制御を再現するクラス " alt="" coords="1037,691,1168,717"/><area shape="rect" id="node11" href="class_a_t_c_f_s_1_1_atc_1_1_atc_a.html" title="ATC&#45;1, ATC&#45;2を再現するクラス " alt="" coords="1041,751,1164,777"/><area shape="rect" id="node12" href="class_a_t_c_f_s_1_1_atc_1_1_atc_d.html" title="ATC&#45;NS, KS&#45;ATC, DS&#45;ATCを再現するクラス " alt="" coords="1193,476,1317,503"/><area shape="rect" id="node13" href="class_a_t_c_f_s_1_1_atc_1_1_atc_d_1_1_pattern_d.html" title="制限速度パターン関連を記述するクラス " alt="" coords="831,537,1011,564"/><area shape="rect" id="node14" href="class_a_t_c_f_s_1_1_atc_1_1_atc_d_1_1_station_d.html" title="駅停車パターン関連を記述するクラス " alt="" coords="832,373,1011,400"/><area shape="rect" id="node15" href="class_a_t_c_f_s_1_1_atc_1_1_atc_d_1_1_section_d.html" title="停止信号パターン関連を記述するクラス " alt="" coords="830,424,1013,451"/><area shape="rect" id="node18" href="class_a_t_c_f_s_1_1_ats_p_1_1_section_p.html" title="停止信号パターン関連を記述するクラス " alt="" coords="843,209,999,236"/><area shape="rect" id="node19" href="class_a_t_c_f_s_1_1_ats_p_1_1_pattern_p.html" title="制限速度パターン関連を記述するクラス " alt="" coords="844,260,999,287"/><area shape="rect" id="node4" href="class_a_t_c_f_s_1_1_train_1_1_read_only_handles.html" title="読み込みのみ可能なハンドル操作を表すクラス" alt="" coords="334,188,543,215"/><area shape="rect" id="node6" href="class_a_t_c_f_s_1_1_device.html" title="抽象的な保安装置を表すクラス " alt="" coords="383,379,494,405"/><area shape="rect" id="node7" href="class_a_t_c_f_s_1_1_sounds.html" title="ATCFS.Sounds" alt="" coords="381,429,496,456"/><area shape="rect" id="node8" href="class_a_t_c_f_s_1_1_sounds_1_1_sound.html" title="ループ音を表すクラス" alt="" coords="5,429,160,456"/></map>
+<center><span class="legend">[<a href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pac-methods"></a>
+関数</h2></td></tr>
+<tr class="memitem:a36664100b7a3f9aaf2b589a915318a77"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_t_c_f_s_1_1_wiper.html#a36664100b7a3f9aaf2b589a915318a77">Wiper</a> (<a class="el" href="class_a_t_c_f_s_1_1_train.html">Train</a> train)</td></tr>
+<tr class="memdesc:a36664100b7a3f9aaf2b589a915318a77"><td class="mdescLeft">&#160;</td><td class="mdescRight">新しいインスタンスを作成する  <a href="#a36664100b7a3f9aaf2b589a915318a77">[詳解]</a><br/></td></tr>
+<tr class="separator:a36664100b7a3f9aaf2b589a915318a77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7c25e7a8a2f721a9f875df6d7d5209a"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_t_c_f_s_1_1_wiper.html#ab7c25e7a8a2f721a9f875df6d7d5209a">Initialize</a> (InitializationModes mode)</td></tr>
+<tr class="memdesc:ab7c25e7a8a2f721a9f875df6d7d5209a"><td class="mdescLeft">&#160;</td><td class="mdescRight">ゲーム開始時に呼び出される関数  <a href="#ab7c25e7a8a2f721a9f875df6d7d5209a">[詳解]</a><br/></td></tr>
+<tr class="separator:ab7c25e7a8a2f721a9f875df6d7d5209a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3afab537a319440b5ecc932551fce18"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_t_c_f_s_1_1_wiper.html#af3afab537a319440b5ecc932551fce18">Elapse</a> (ElapseData data, ref bool blocking)</td></tr>
+<tr class="memdesc:af3afab537a319440b5ecc932551fce18"><td class="mdescLeft">&#160;</td><td class="mdescRight">1フレームごとに呼び出される関数  <a href="#af3afab537a319440b5ecc932551fce18">[詳解]</a><br/></td></tr>
+<tr class="separator:af3afab537a319440b5ecc932551fce18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6547070c04cfd6e153ff87698ff5ddea"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_t_c_f_s_1_1_wiper.html#a6547070c04cfd6e153ff87698ff5ddea">SetReverser</a> (int reverser)</td></tr>
+<tr class="memdesc:a6547070c04cfd6e153ff87698ff5ddea"><td class="mdescLeft">&#160;</td><td class="mdescRight">レバーサーが扱われたときに呼び出される関数  <a href="#a6547070c04cfd6e153ff87698ff5ddea">[詳解]</a><br/></td></tr>
+<tr class="separator:a6547070c04cfd6e153ff87698ff5ddea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a584f83beb6068153229a10e35c7beccd"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_t_c_f_s_1_1_wiper.html#a584f83beb6068153229a10e35c7beccd">SetPower</a> (int powerNotch)</td></tr>
+<tr class="memdesc:a584f83beb6068153229a10e35c7beccd"><td class="mdescLeft">&#160;</td><td class="mdescRight">主ハンドルが扱われたときに呼び出される関数  <a href="#a584f83beb6068153229a10e35c7beccd">[詳解]</a><br/></td></tr>
+<tr class="separator:a584f83beb6068153229a10e35c7beccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb0a1a084e33ce390c2d0dece5bb63c8"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_t_c_f_s_1_1_wiper.html#aeb0a1a084e33ce390c2d0dece5bb63c8">SetBrake</a> (int brakeNotch)</td></tr>
+<tr class="memdesc:aeb0a1a084e33ce390c2d0dece5bb63c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">ブレーキが扱われたときに呼び出される関数  <a href="#aeb0a1a084e33ce390c2d0dece5bb63c8">[詳解]</a><br/></td></tr>
+<tr class="separator:aeb0a1a084e33ce390c2d0dece5bb63c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ccd0a83784ab4374ecb617eef4494e4"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_t_c_f_s_1_1_wiper.html#a3ccd0a83784ab4374ecb617eef4494e4">KeyDown</a> (VirtualKeys key)</td></tr>
+<tr class="memdesc:a3ccd0a83784ab4374ecb617eef4494e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">ATSキーが押されたときに呼び出される関数  <a href="#a3ccd0a83784ab4374ecb617eef4494e4">[詳解]</a><br/></td></tr>
+<tr class="separator:a3ccd0a83784ab4374ecb617eef4494e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a890380377667a596254e15e547bb42c4"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_t_c_f_s_1_1_wiper.html#a890380377667a596254e15e547bb42c4">KeyUp</a> (VirtualKeys key)</td></tr>
+<tr class="memdesc:a890380377667a596254e15e547bb42c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">ATSキーが離されたときに呼び出される関数  <a href="#a890380377667a596254e15e547bb42c4">[詳解]</a><br/></td></tr>
+<tr class="separator:a890380377667a596254e15e547bb42c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f36cfda77c548c19885280110268afc"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_t_c_f_s_1_1_wiper.html#a7f36cfda77c548c19885280110268afc">HornBlow</a> (HornTypes type)</td></tr>
+<tr class="memdesc:a7f36cfda77c548c19885280110268afc"><td class="mdescLeft">&#160;</td><td class="mdescRight">警笛が扱われたときに呼び出される関数  <a href="#a7f36cfda77c548c19885280110268afc">[詳解]</a><br/></td></tr>
+<tr class="separator:a7f36cfda77c548c19885280110268afc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a313ae811a628f04d2779aedf4355de06"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_t_c_f_s_1_1_wiper.html#a313ae811a628f04d2779aedf4355de06">SetSignal</a> (SignalData[] signal)</td></tr>
+<tr class="memdesc:a313ae811a628f04d2779aedf4355de06"><td class="mdescLeft">&#160;</td><td class="mdescRight">現在の閉塞の信号が変化したときに呼び出される関数  <a href="#a313ae811a628f04d2779aedf4355de06">[詳解]</a><br/></td></tr>
+<tr class="separator:a313ae811a628f04d2779aedf4355de06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2be865df0ffb3e2337a49e55ee7aadfc"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_t_c_f_s_1_1_wiper.html#a2be865df0ffb3e2337a49e55ee7aadfc">SetBeacon</a> (BeaconData beacon)</td></tr>
+<tr class="memdesc:a2be865df0ffb3e2337a49e55ee7aadfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">地上子を越えたときに呼び出される関数  <a href="#a2be865df0ffb3e2337a49e55ee7aadfc">[詳解]</a><br/></td></tr>
+<tr class="separator:a2be865df0ffb3e2337a49e55ee7aadfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+非公開メンバ関数</h2></td></tr>
+<tr class="memitem:ac90be064a7e2278be4797286b0ab90a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_t_c_f_s_1_1_wiper.html#ac90be064a7e2278be4797286b0ab90a7">WiperRequest</a> (int request)</td></tr>
+<tr class="separator:ac90be064a7e2278be4797286b0ab90a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84089cec7dfb408ba10e1f113555cc57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_t_c_f_s_1_1_wiper.html#a84089cec7dfb408ba10e1f113555cc57">MoveWiper</a> ()</td></tr>
+<tr class="separator:a84089cec7dfb408ba10e1f113555cc57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7a4e3d3ce0e0301db5c8cc4b7e28c6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_t_c_f_s_1_1_wiper.html#ad7a4e3d3ce0e0301db5c8cc4b7e28c6d">Exe</a> ()</td></tr>
+<tr class="separator:ad7a4e3d3ce0e0301db5c8cc4b7e28c6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:a30d4ef56ce2b539a8a40164aaeb00f48"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="class_a_t_c_f_s_1_1_train.html">Train</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_t_c_f_s_1_1_wiper.html#a30d4ef56ce2b539a8a40164aaeb00f48">train_</a></td></tr>
+<tr class="separator:a30d4ef56ce2b539a8a40164aaeb00f48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65ae06df956213122dbbff1c80f00c25"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_t_c_f_s_1_1_wiper.html#a65ae06df956213122dbbff1c80f00c25">wiper_timer_</a></td></tr>
+<tr class="separator:a65ae06df956213122dbbff1c80f00c25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a322f0381e1e39593bb208ff66b6c6893"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_t_c_f_s_1_1_wiper.html#a322f0381e1e39593bb208ff66b6c6893">wiper_direction_</a></td></tr>
+<tr class="separator:a322f0381e1e39593bb208ff66b6c6893"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c484469b4c1ebe35cc693434c97bc7e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_t_c_f_s_1_1_wiper.html#a1c484469b4c1ebe35cc693434c97bc7e">wiper_held_timer_</a></td></tr>
+<tr class="separator:a1c484469b4c1ebe35cc693434c97bc7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe10adef8b0ae560e7258be745a2fdf5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_t_c_f_s_1_1_wiper.html#abe10adef8b0ae560e7258be745a2fdf5">wiper_held_</a></td></tr>
+<tr class="separator:abe10adef8b0ae560e7258be745a2fdf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1487f802905d7704c5c0751b7a963106"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_t_c_f_s_1_1_wiper.html#a1487f802905d7704c5c0751b7a963106">wiper_speed_</a></td></tr>
+<tr class="separator:a1487f802905d7704c5c0751b7a963106"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95483546295dff9ea66c30efce882d40"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_t_c_f_s_1_1_wiper.html#a95483546295dff9ea66c30efce882d40">wiper_current_position_</a></td></tr>
+<tr class="separator:a95483546295dff9ea66c30efce882d40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a512fe98261245a4894e652db9b3ef03c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_t_c_f_s_1_1_wiper.html#a512fe98261245a4894e652db9b3ef03c">deltaT_</a></td></tr>
+<tr class="separator:a512fe98261245a4894e652db9b3ef03c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4c00a7d1ed2587d077274b214a49e2b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_t_c_f_s_1_1_wiper.html#ad4c00a7d1ed2587d077274b214a49e2b">wiper_rate_</a></td></tr>
+<tr class="separator:ad4c00a7d1ed2587d077274b214a49e2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a016e707538ac11aa21002c60853ca866"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_t_c_f_s_1_1_wiper.html#a016e707538ac11aa21002c60853ca866">wiper_hold_position_</a></td></tr>
+<tr class="separator:a016e707538ac11aa21002c60853ca866"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade75ac735e1fb506dc0940a737b89125"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_t_c_f_s_1_1_wiper.html#ade75ac735e1fb506dc0940a737b89125">wiper_delay_</a></td></tr>
+<tr class="separator:ade75ac735e1fb506dc0940a737b89125"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a124a8f4e64fec0133550312447d961ef"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_t_c_f_s_1_1_wiper.html#a124a8f4e64fec0133550312447d961ef">wiper_sound_behaviour_</a></td></tr>
+<tr class="separator:a124a8f4e64fec0133550312447d961ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="a36664100b7a3f9aaf2b589a915318a77"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ATCFS.Wiper.Wiper </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_a_t_c_f_s_1_1_train.html">Train</a>&#160;</td>
+          <td class="paramname"><em>train</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>新しいインスタンスを作成する </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">train</td><td>Trainクラスのインスタンス</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">メソッド詳解</h2>
+<a class="anchor" id="af3afab537a319440b5ecc932551fce18"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void ATCFS.Wiper.Elapse </td>
+          <td>(</td>
+          <td class="paramtype">ElapseData&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref bool&#160;</td>
+          <td class="paramname"><em>blocking</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>1フレームごとに呼び出される関数 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>The data.</td></tr>
+    <tr><td class="paramname">blocking</td><td>保安装置がブロックされているか、後続の保安装置をブロックするかどうか。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="class_a_t_c_f_s_1_1_device.html#ac2ee081f2aa6906f6b3d11cbccaa2d9d">ATCFS.Device</a>を実装しています。</p>
+
+<p><div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_a_t_c_f_s_1_1_wiper_af3afab537a319440b5ecc932551fce18_cgraph.png" border="0" usemap="#class_a_t_c_f_s_1_1_wiper_af3afab537a319440b5ecc932551fce18_cgraph" alt=""/></div>
+<map name="class_a_t_c_f_s_1_1_wiper_af3afab537a319440b5ecc932551fce18_cgraph" id="class_a_t_c_f_s_1_1_wiper_af3afab537a319440b5ecc932551fce18_cgraph">
+<area shape="rect" id="node2" href="class_a_t_c_f_s_1_1_wiper.html#ad7a4e3d3ce0e0301db5c8cc4b7e28c6d" title="ATCFS.Wiper.Exe" alt="" coords="203,5,333,32"/><area shape="rect" id="node3" href="class_a_t_c_f_s_1_1_wiper.html#a84089cec7dfb408ba10e1f113555cc57" title="ATCFS.Wiper.MoveWiper" alt="" coords="382,5,557,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ad7a4e3d3ce0e0301db5c8cc4b7e28c6d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ATCFS.Wiper.Exe </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_a_t_c_f_s_1_1_wiper_ad7a4e3d3ce0e0301db5c8cc4b7e28c6d_cgraph.png" border="0" usemap="#class_a_t_c_f_s_1_1_wiper_ad7a4e3d3ce0e0301db5c8cc4b7e28c6d_cgraph" alt=""/></div>
+<map name="class_a_t_c_f_s_1_1_wiper_ad7a4e3d3ce0e0301db5c8cc4b7e28c6d_cgraph" id="class_a_t_c_f_s_1_1_wiper_ad7a4e3d3ce0e0301db5c8cc4b7e28c6d_cgraph">
+<area shape="rect" id="node2" href="class_a_t_c_f_s_1_1_wiper.html#a84089cec7dfb408ba10e1f113555cc57" title="ATCFS.Wiper.MoveWiper" alt="" coords="185,5,359,32"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_a_t_c_f_s_1_1_wiper_ad7a4e3d3ce0e0301db5c8cc4b7e28c6d_icgraph.png" border="0" usemap="#class_a_t_c_f_s_1_1_wiper_ad7a4e3d3ce0e0301db5c8cc4b7e28c6d_icgraph" alt=""/></div>
+<map name="class_a_t_c_f_s_1_1_wiper_ad7a4e3d3ce0e0301db5c8cc4b7e28c6d_icgraph" id="class_a_t_c_f_s_1_1_wiper_ad7a4e3d3ce0e0301db5c8cc4b7e28c6d_icgraph">
+<area shape="rect" id="node2" href="class_a_t_c_f_s_1_1_wiper.html#af3afab537a319440b5ecc932551fce18" title="1フレームごとに呼び出される関数 " alt="" coords="185,5,333,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a7f36cfda77c548c19885280110268afc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void ATCFS.Wiper.HornBlow </td>
+          <td>(</td>
+          <td class="paramtype">HornTypes&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>警笛が扱われたときに呼び出される関数 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>警笛のタイプ</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="class_a_t_c_f_s_1_1_device.html#a883d905fb712d202fff4b7b1faa13cc2">ATCFS.Device</a>を実装しています。</p>
+
+</div>
+</div>
+<a class="anchor" id="ab7c25e7a8a2f721a9f875df6d7d5209a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void ATCFS.Wiper.Initialize </td>
+          <td>(</td>
+          <td class="paramtype">InitializationModes&#160;</td>
+          <td class="paramname"><em>mode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ゲーム開始時に呼び出される関数 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mode</td><td>初期化モード</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="class_a_t_c_f_s_1_1_device.html#adf16b139b50fae039518a4c902c62e99">ATCFS.Device</a>を実装しています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a3ccd0a83784ab4374ecb617eef4494e4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void ATCFS.Wiper.KeyDown </td>
+          <td>(</td>
+          <td class="paramtype">VirtualKeys&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ATSキーが押されたときに呼び出される関数 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>ATSキー</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="class_a_t_c_f_s_1_1_device.html#a54bf507974b957d821683c51a2e38438">ATCFS.Device</a>を実装しています。</p>
+
+<p><div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_a_t_c_f_s_1_1_wiper_a3ccd0a83784ab4374ecb617eef4494e4_cgraph.png" border="0" usemap="#class_a_t_c_f_s_1_1_wiper_a3ccd0a83784ab4374ecb617eef4494e4_cgraph" alt=""/></div>
+<map name="class_a_t_c_f_s_1_1_wiper_a3ccd0a83784ab4374ecb617eef4494e4_cgraph" id="class_a_t_c_f_s_1_1_wiper_a3ccd0a83784ab4374ecb617eef4494e4_cgraph">
+<area shape="rect" id="node2" href="class_a_t_c_f_s_1_1_wiper.html#ac90be064a7e2278be4797286b0ab90a7" title="ATCFS.Wiper.WiperRequest" alt="" coords="219,5,410,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a890380377667a596254e15e547bb42c4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void ATCFS.Wiper.KeyUp </td>
+          <td>(</td>
+          <td class="paramtype">VirtualKeys&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ATSキーが離されたときに呼び出される関数 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>ATSキー</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="class_a_t_c_f_s_1_1_device.html#ac5bc6c1a8c15c5387b478374dbde7f17">ATCFS.Device</a>を実装しています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a84089cec7dfb408ba10e1f113555cc57"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ATCFS.Wiper.MoveWiper </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_a_t_c_f_s_1_1_wiper_a84089cec7dfb408ba10e1f113555cc57_icgraph.png" border="0" usemap="#class_a_t_c_f_s_1_1_wiper_a84089cec7dfb408ba10e1f113555cc57_icgraph" alt=""/></div>
+<map name="class_a_t_c_f_s_1_1_wiper_a84089cec7dfb408ba10e1f113555cc57_icgraph" id="class_a_t_c_f_s_1_1_wiper_a84089cec7dfb408ba10e1f113555cc57_icgraph">
+<area shape="rect" id="node2" href="class_a_t_c_f_s_1_1_wiper.html#ad7a4e3d3ce0e0301db5c8cc4b7e28c6d" title="ATCFS.Wiper.Exe" alt="" coords="229,5,360,32"/><area shape="rect" id="node3" href="class_a_t_c_f_s_1_1_wiper.html#af3afab537a319440b5ecc932551fce18" title="1フレームごとに呼び出される関数 " alt="" coords="409,5,557,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a2be865df0ffb3e2337a49e55ee7aadfc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void ATCFS.Wiper.SetBeacon </td>
+          <td>(</td>
+          <td class="paramtype">BeaconData&#160;</td>
+          <td class="paramname"><em>beacon</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>地上子を越えたときに呼び出される関数 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">beacon</td><td>車上子で受け取った情報</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="class_a_t_c_f_s_1_1_device.html#aed213602939b7c96668a9dc953678377">ATCFS.Device</a>を実装しています。</p>
+
+</div>
+</div>
+<a class="anchor" id="aeb0a1a084e33ce390c2d0dece5bb63c8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void ATCFS.Wiper.SetBrake </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>brakeNotch</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ブレーキが扱われたときに呼び出される関数 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">brakeNotch</td><td>ブレーキノッチ</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="class_a_t_c_f_s_1_1_device.html#a9a83e70a0b16a942f72587f8d4b42045">ATCFS.Device</a>を実装しています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a584f83beb6068153229a10e35c7beccd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void ATCFS.Wiper.SetPower </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>powerNotch</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>主ハンドルが扱われたときに呼び出される関数 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">powerNotch</td><td>力行ノッチ</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="class_a_t_c_f_s_1_1_device.html#a07c6fb1ddeb34eb506c22cc7907a2c36">ATCFS.Device</a>を実装しています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a6547070c04cfd6e153ff87698ff5ddea"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void ATCFS.Wiper.SetReverser </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>reverser</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>レバーサーが扱われたときに呼び出される関数 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">reverser</td><td>レバーサ位置</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="class_a_t_c_f_s_1_1_device.html#a2f6b3074eb98a96384ba720d23dafbcd">ATCFS.Device</a>を実装しています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a313ae811a628f04d2779aedf4355de06"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void ATCFS.Wiper.SetSignal </td>
+          <td>(</td>
+          <td class="paramtype">SignalData[]&#160;</td>
+          <td class="paramname"><em>signal</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>現在の閉塞の信号が変化したときに呼び出される関数 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">signal</td><td>信号番号</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="class_a_t_c_f_s_1_1_device.html#adb8acc1202aa20ef6624ca9ed702634a">ATCFS.Device</a>を実装しています。</p>
+
+</div>
+</div>
+<a class="anchor" id="ac90be064a7e2278be4797286b0ab90a7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ATCFS.Wiper.WiperRequest </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>request</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_a_t_c_f_s_1_1_wiper_ac90be064a7e2278be4797286b0ab90a7_icgraph.png" border="0" usemap="#class_a_t_c_f_s_1_1_wiper_ac90be064a7e2278be4797286b0ab90a7_icgraph" alt=""/></div>
+<map name="class_a_t_c_f_s_1_1_wiper_ac90be064a7e2278be4797286b0ab90a7_icgraph" id="class_a_t_c_f_s_1_1_wiper_ac90be064a7e2278be4797286b0ab90a7_icgraph">
+<area shape="rect" id="node2" href="class_a_t_c_f_s_1_1_wiper.html#a3ccd0a83784ab4374ecb617eef4494e4" title="ATSキーが押されたときに呼び出される関数 " alt="" coords="245,5,411,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a class="anchor" id="a512fe98261245a4894e652db9b3ef03c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ATCFS.Wiper.deltaT_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a30d4ef56ce2b539a8a40164aaeb00f48"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="class_a_t_c_f_s_1_1_train.html">Train</a> ATCFS.Wiper.train_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a95483546295dff9ea66c30efce882d40"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ATCFS.Wiper.wiper_current_position_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ade75ac735e1fb506dc0940a737b89125"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ATCFS.Wiper.wiper_delay_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a322f0381e1e39593bb208ff66b6c6893"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ATCFS.Wiper.wiper_direction_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abe10adef8b0ae560e7258be745a2fdf5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ATCFS.Wiper.wiper_held_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1c484469b4c1ebe35cc693434c97bc7e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ATCFS.Wiper.wiper_held_timer_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a016e707538ac11aa21002c60853ca866"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ATCFS.Wiper.wiper_hold_position_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad4c00a7d1ed2587d077274b214a49e2b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ATCFS.Wiper.wiper_rate_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a124a8f4e64fec0133550312447d961ef"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ATCFS.Wiper.wiper_sound_behaviour_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1487f802905d7704c5c0751b7a963106"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ATCFS.Wiper.wiper_speed_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a65ae06df956213122dbbff1c80f00c25"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ATCFS.Wiper.wiper_timer_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li><a class="el" href="_wiper_8cs.html">Wiper.cs</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>
