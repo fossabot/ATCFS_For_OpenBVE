@@ -1,6 +1,7 @@
-﻿# ATCFS For OpenBVE
+# ATCFS For OpenBVE
 
 [![Build status](https://ci.appveyor.com/api/projects/status/kw52b75ccsbp6fv4?svg=true)](https://ci.appveyor.com/project/s520/atcfs-for-openbve)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FS620%2FATCFS_For_OpenBVE.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FS620%2FATCFS_For_OpenBVE?ref=badge_shield)
 
 ATC-1, ATC-2, ATC-NS, KS-ATC, DS-ATC, ATS-P Plugin for OpenBVE on Linux or Windows
 
@@ -31,6 +32,9 @@ ATC-1, ATC-2, ATC-NS, KS-ATC, DS-ATC, ATS-P Plugin for OpenBVE on Linux or Windo
 
 - Since this project contains part BVEC_ATS source code, that part is provided under the 2-clause BSD license of BVEC_ATS described below.
 - Since this project contains INI File Parser source code, that part is provided under the MIT license of INI File Parser described below.
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FS620%2FATCFS_For_OpenBVE.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FS620%2FATCFS_For_OpenBVE?ref=badge_large)
 
 ## Postscript
 
